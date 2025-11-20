@@ -1,0 +1,14 @@
+{
+    "scripts": {
+        "start": "node --env-file=.env server.js",
+        "compile": "npx tsc server.ts"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.4",
+        "@types/node": "^24.9.1",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "express": "^5.1.0"
+    }
+}
